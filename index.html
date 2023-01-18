@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Pagina Encriptador</title>
+        <link rel="stylesheet" href="style_encriptador.css">    
+    </head>
+    
+    <body>
+        <header>
+            
+        </header>
+
+        <main>
+            <section id="section-ingreso">
+                <div class="contenido">
+                    <textarea  id="mensajeIngresado" placeholder="ingrese el texto aqui"></textarea>
+                    <p class="texto-alerta">&#9406 Solo letras minusculas y sin acentos</p>
+                </div>
+            </section>
+
+
+            <section id="section-contenido">
+                <div class="contenidoRight">
+                    <p class="texto">ENCRIPTADOR</p>
+                    <p class="texto0">Juega a encontrar el mensaje oculto!!</p>
+                    <img class="imagen" src="garfiel fondo.png">
+                    <p class="texto1">Ningun mensaje fue encontrado</p>
+                    <p class="texto2">Ingrese el texto que desees encriptar o desencriptar</p>
+                </div>
+            </section>
+    
+                
+            <section id="resultado-obtenido">
+                <textarea id="respuesta"></textarea>
+                <div class="resultado">
+                    <button class="boton-copiar" id="botonCopiar">Copiar</button>
+                </div>
+            </section>
+
+
+            <section>
+                <div class="botones">
+                    <button id="boton1">Encriptar</button>
+                    <button id="boton2" >Desencriptar</button>
+                </div>
+            </section>
+ 
+        </main>
+        
+        <script src="encriptador.js"></script>
+        
+    </body>
+
+</html>

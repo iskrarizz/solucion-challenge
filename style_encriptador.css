@@ -1,0 +1,155 @@
+/* elemento universal(*) */
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+}
+
+main{
+    background: #ECE8DD;
+    Width:1200px;
+    Height:800px;
+}
+
+#section-ingreso{
+    display:inline-block;
+    vertical-align: top;
+}
+.contenido{
+    /* background: purple; */
+    display: inline-block;
+    width: 850px;
+    height: 650px;
+    text-align: center;
+}
+
+#mensajeIngresado{
+    font-family: arial, verdana, ms sans serif;
+    font-size: 2em;
+    color: #000000;
+    width: 820px;
+    height: 650px;
+    padding: 100px;
+    margin-top: 22px;
+    margin-left: 20px;
+    background: #F8F4EA;
+    border: none;  
+}
+.texto-alerta{
+    Font-size: 12px;
+    Line-height: 18px;
+    text-align: left;
+    margin-left: 100px;
+    margin-top: -50px;    
+}
+
+#mensajeIngresado:focus{
+    outline: none;
+}
+
+#section-contenido{
+    display: inline-block;
+    vertical-align: top;
+}
+
+.contenidoRight{
+    background: #579BB1;
+    display: inline-block;
+    width: 320px;
+    height: 750px;
+    /* vertical-align: top; */
+    text-align: center;
+    margin-top: 22px;
+    border-radius: 25px;
+}
+
+.texto{
+    font-size: 2em;
+    margin-top: 40px;
+    font-family: arial, verdana, ms sans serif;
+    color: white;
+}
+
+.texto0{
+    color: white;
+}
+
+.imagen{
+    width: 80%;
+    margin-top: 100px;  
+}
+
+.texto1{
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: -30px;
+    font-family: arial, verdana, ms sans serif;
+    color: #E1D7C6;
+}
+
+.texto2{
+    font-size: 14px; 
+    font-family: arial, verdana, ms sans serif; 
+    margin-top: 15px;
+    color:#F8F4EA;
+}
+
+#resultado-obtenido{
+    display: inline-block;   
+}
+
+#respuesta{
+    background: #579BB1;
+    display:inline-block;
+    width: 320px;
+    height: 750px;
+    font-size: 1.5em;  
+    text-align: center;
+    margin-top: 22px;
+    border-radius: 25px;
+    padding:30px;
+    align-items: top; 
+    border: none;   
+}
+
+.botones{
+    position: absolute;
+    top: 710px;
+    left: 150px;  
+}
+   
+#boton1{
+    /* display: inline; */
+    background: #579BB1;
+    height: 50px;
+    width: 250px;
+    margin-right: 20px;
+    border-radius: 20px;
+    border-color: #FFB200;
+    color:white;
+}
+
+#boton2{
+    /* display: inline; */
+    background: #E1D7C6;
+    height: 50px;
+    width: 250px;
+    margin-left: 20px;
+    border-radius: 20px;
+    border-color: #FFB200;
+    color:black; 
+}
+
+.boton-copiar{
+    background: #579BB1;
+    height: 50px;
+    width: 250px;
+    margin-left: 35px;
+    margin-top: -100px;
+    border-radius: 20px;
+    border-color: #FFB200;
+    color:white; 
+    position: absolute;
+    cursor: pointer;   
+}
+
